@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/inside_bg"
+    tools:context=".Avatars">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp">
+
+        <TextView
+            android:id="@+id/text_view_p1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="Choose your avatar!"
+            android:textSize="24sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp">
+
+        <ImageButton
+            android:id="@+id/blue_box"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:src="@drawable/box"
+            android:scaleType="fitCenter"
+            android:layout_marginLeft="35dp"
+            android:layout_gravity="center_vertical"
+            android:onClick="Blue"/>
+
+        <ImageButton
+            android:id="@+id/orang_box"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:src="@drawable/box_orange"
+            android:scaleType="fitCenter"
+            android:layout_marginLeft="32dp"
+            android:layout_gravity="center_vertical"
+            android:onClick="Orange"/>
+
+        <ImageButton
+            android:id="@+id/green_box"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:src="@drawable/box_green"
+            android:scaleType="fitCenter"
+            android:layout_marginLeft="32dp"
+            android:layout_gravity="center_vertical"
+            android:onClick="Green"/>
+
+        <!--
+        <Button
+            android:id="@+id/button_01"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="60sp"
+            android:freezesText="true"/>
+
+        <Button
+            android:id="@+id/button_02"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="60sp"
+            android:freezesText="true"/>
+-->
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp">
+
+        <ImageButton
+            android:id="@+id/detective_box"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:src="@drawable/box_detective"
+            android:scaleType="fitCenter"
+            android:layout_marginLeft="35dp"
+            android:layout_gravity="center_vertical"
+            android:onClick="Detective"/>
+
+        <ImageButton
+            android:id="@+id/criminal_box"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:src="@drawable/box_criminal"
+            android:scaleType="fitCenter"
+            android:layout_marginLeft="35dp"
+            android:layout_gravity="center_vertical"
+            android:onClick="Criminal"/>
+
+        <ImageButton
+            android:id="@+id/moustache_box"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:src="@drawable/box_moustache"
+            android:scaleType="fitCenter"
+            android:layout_marginLeft="35dp"
+            android:layout_gravity="center_vertical"
+            android:onClick="Moustache"/>
+
+    </LinearLayout>
+
+    <!--
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/button_10"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="60sp"
+            android:freezesText="true"/>
+
+        <Button
+            android:id="@+id/button_11"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="60sp"
+            android:freezesText="true"/>
+
+        <Button
+            android:id="@+id/button_12"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="60sp"
+            android:freezesText="true"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/button_20"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="60sp"
+            android:freezesText="true"/>
+
+        <Button
+            android:id="@+id/button_21"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="60sp"
+            android:freezesText="true"/>
+
+        <Button
+            android:id="@+id/button_22"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="60sp"
+            android:freezesText="true"/>
+
+    </LinearLayout>
+-->
+</LinearLayout>
